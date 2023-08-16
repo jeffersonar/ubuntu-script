@@ -3,6 +3,6 @@
 
 atualizar
 
-sudo apt install -y htop btop curl python-dev python-full pip-python dbeaver-ce virtualbox virtualbox-ext-pack
+sudo apt install -y htop btop curl python3 pip3-python dbeaver-ce virtualbox virtualbox-ext-pack
 
-sudo apt install -y vagrant obs-studio
+sudo apt install -y vagrant obs-studio vlc atom gimp audacity vim inkscape

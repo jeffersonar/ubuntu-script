@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git branch -D $@
+
+echo yes | git push origin -d $@

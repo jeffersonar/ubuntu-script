@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt list --upgradable
 
 sudo apt update -y 
 
