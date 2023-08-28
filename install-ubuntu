@@ -1,0 +1,23 @@
+#!/bin/bash
+
+
+atualizar
+
+sudo apt install -y htop 
+sudo apt install -y btop 
+sudo apt install -y curl 
+sudo apt install -y python3 
+sudo snap install -y dbeaver-ce 
+sudo apt install -y virtualbox 
+sudo apt install -y virtualbox-ext-pack
+
+sudo apt install -y vagrant 
+sudo apt install -y obs-studio 
+sudo apt install -y vlc 
+sudo apt install -y atom 
+sudo apt install -y gimp 
+sudo apt install -y audacity 
+sudo apt install -y vim 
+sudo apt install -y inkscape
+
+sudo snap install -y sublime-text 

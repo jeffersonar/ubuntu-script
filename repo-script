@@ -1,0 +1,9 @@
+#!/bin/bash
+
+caminho=$HOME/privacy/git/ubuntu-script/
+
+if [ -d "$caminho" ]; then
+    cd $caminho
+else  
+    code $HOME/Documentos/git/ubuntu-script/
+fi

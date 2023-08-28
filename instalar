@@ -1,8 +1,10 @@
 #!/bin/bash
 
+caminho=$1
+pasta=$(basename "$caminho")
 
-atualizar
+echo $caminho
+echo $pasta
 
-sudo apt install -y htop btop curl python3 pip3-python dbeaver-ce virtualbox virtualbox-ext-pack
-
-sudo apt install -y vagrant obs-studio vlc atom gimp audacity vim inkscape
+cp -rv $caminho /opt/
+cd /opt/$pasta

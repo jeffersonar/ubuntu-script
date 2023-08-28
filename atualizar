@@ -6,6 +6,6 @@ sudo apt update -y
 
 sudo apt upgrade -y 
 
-sudo apt install -f 
+sudo apt install -y -f 
 
-sudo apt autoremove
+sudo apt autoremove -y
