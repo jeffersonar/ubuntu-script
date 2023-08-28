@@ -1,6 +1,6 @@
 #!/bin/bash
 
-caminho=$HOME/privacy/git/
+caminho=$HOME/privacytools/git/
 
 if [ -d "$caminho" ]; then
     open $caminho
