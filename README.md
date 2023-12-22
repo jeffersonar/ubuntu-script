@@ -1,1 +1,2 @@
 # ubuntu-script
+s
