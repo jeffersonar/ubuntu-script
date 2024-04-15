@@ -1,9 +1,0 @@
-#!/bin/bash
-
-caminho=$HOME/privacytools/git/
-
-if [ -d "$caminho" ]; then
-    open $caminho
-else  
-    open $HOME/Documentos/git/
-fi

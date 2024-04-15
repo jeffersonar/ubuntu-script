@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ssh -i /home/jefferson/.ssh/copel-hlg/copel-hlg.pem -t ubuntu@172.16.2.137 "cd /opt/data-privacy-api-infra-copel/copel/docker/prd/frontend/; bash --login"

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ssh -i /home/jefferson/.ssh/copel-hlg/copel-hlg.pem ubuntu@10.30.2.131
+ssh -i /home/jefferson/.ssh/copel-hlg/copel-hlg.pem -t ubuntu@10.30.2.131 "cd /opt/data-privacy-api-infra-copel/copel/docker/prd/ragnar/; bash --login"

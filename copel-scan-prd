@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ssh -i /home/jefferson/.ssh/copel-prd/copel-prd.pem -t ubuntu@172.16.4.201 "cd /opt/data-privacy-api-infra-copel/copel/docker/prd/scan/; bash --login"

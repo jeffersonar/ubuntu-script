@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ssh -i /home/jefferson/.ssh/baneste/KP-AWS-HOMOLOGA-BANESTES.pem -t ec2-user@10.21.11.74 "cd /opt/server-frontend-hlg-baneste; bash --login"
