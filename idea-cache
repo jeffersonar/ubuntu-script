@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+rm -f /home/jefferson/.var/app/com.jetbrains.IntelliJ-IDEA-Ultimate/config/JetBrains/IntelliJIdea2024.1/.lock
