@@ -1,4 +1,4 @@
 #!/bin/bash
 
 
-sudo alternatives --config java
+sudo update-alternatives --config java
